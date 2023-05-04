@@ -1,6 +1,18 @@
 # react-native-toast-mith
 
-Testing
+Toast message with animated functionality, You can customize UI element according to your requirement,
+
+Use this Props for changing background color
+BackgroundSuccessColor
+BackgroundErrorColor
+TitleStyle
+MessageStyle
+ShowCloseIcon
+
+![Alt text](/relative/path/to/img.png?raw=true 'Optional Title')
+![Alt text](/relative/path/to/img2.png?raw=true 'Optional Title')
+![Alt text](/relative/path/to/img3.png?raw=true 'Optional Title')
+![Alt text](/relative/path/to/img4.png?raw=true 'Optional Title')
 
 ## Installation
 
@@ -58,6 +70,7 @@ export function Foo(props) {
 // ...
 
 ```
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
