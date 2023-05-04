@@ -1,16 +1,10 @@
 {
   "name": "react-native-toast-mith",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "testing",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest",
-    "typecheck": "tsc --noEmit",
-    "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "prepack": "bob build",
-    "release": "release-it",
-    "example": "yarn --cwd example",
-    "bootstrap": "yarn example && yarn install && yarn example pods",
+    "publish": "npm publish",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build",
     "build": "tsc"
   },
