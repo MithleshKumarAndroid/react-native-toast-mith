@@ -18,6 +18,8 @@ ShowCloseIcon
 
 ```sh
 npm install react-native-toast-mith
+
+yarn add react-native-toast-mith
 ```
 
 ## Usage
