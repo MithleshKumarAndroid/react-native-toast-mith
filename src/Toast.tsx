@@ -104,7 +104,7 @@ const Toast: React.FC<Props> = ({
         {ShowCloseIcon && (
           <TouchableOpacity onPress={() => instantPopOut()}>
             <View style={dynamicStyle.close_Icon_Con}>
-              <Text style={dynamicStyle.close_Label}>✗</Text>
+              <Text style={dynamicStyle.close_Label}>X</Text>
             </View>
           </TouchableOpacity>
         )}
@@ -153,9 +153,9 @@ const styles = ({
       justifyContent: 'space-evenly',
     },
     left_Icon_Con: {
-      width: 32,
-      height: 32,
-      borderRadius: 17,
+      width: 30,
+      height: 30,
+      borderRadius: 15,
       borderWidth: status === 'success' ? 1 : 0,
       borderColor: status === 'success' ? '#FFF' : 'red',
       justifyContent: 'center',
@@ -165,7 +165,7 @@ const styles = ({
     left_Icon: {
       color: status === 'success' ? '#FFF' : '#ff4d4d',
       fontWeight: 'bold',
-      fontSize: status === 'success' ? 20 : 35,
+      fontSize: status === 'success' ? 15 : 35,
       marginTop: status === 'success' ? 0 : -5,
     },
     toastText: {
@@ -198,7 +198,7 @@ const styles = ({
     close_Label: {
       color: '#FFF',
       fontWeight: 'bold',
-      fontSize: 18,
+      fontSize: 16,
     },
   });
 
