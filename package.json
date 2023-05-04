@@ -25,7 +25,13 @@
     "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "ios",
+    "android",
+    "toast",
+    "simple-toast",
+    "simple-message"
+
   ],
   "devDependencies": {
     "@react-native-community/eslint-config": "^3.2.0",
